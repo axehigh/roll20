@@ -2,7 +2,7 @@
 
 ### Character Information
 
-´´´
+```
 /w gm &{template:npcaction}  {{name=*Character information*}} {{description=**@{target|character_name}** 
 HP: @{target|HP} 
 AC: @{target|AC} 
@@ -47,13 +47,13 @@ Religion:@{target|Religion_bonus}
 Sleight of hand:@{target|Sleight_of_hand_bonus}
 Stealth:@{target|Stealth_bonus}
 Survival:@{target|Survival_bonus}}}
-´´´
+```
 
 
 ### Conditions
 Or whisper a list of macros to be clicked in chat window. 
 
-´´´
+```
 /w gm &{template:npcaction} {{name=**Condition**}} {{description=
 [Blinded](!
 #C_blinded)
@@ -61,10 +61,10 @@ Or whisper a list of macros to be clicked in chat window.
 #C_charmed)
 [Deafened](!
 #C_deafened)}}
-´´´
+```
 
 Need to define "C_Charmed", ex  
-´´´
+```
 &{template:npcatk} {{name=**Charmed**}} {{description=A charmed creature cannot  attack the charmer or target the charmer with harmful a⁠bilities or magical Effects.
 The charmer has advantage on any ability check to interact socially with the creature.}}
-´´´
+```
